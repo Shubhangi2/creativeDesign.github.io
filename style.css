@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#navbar{
+    background-color: black;
+    padding: 5px;
+    opacity: 0.8;
+    display: flex;
+
+
+    /* justify-content: center;
+    align-items: center; */
+    /* position: sticky; */
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70pc;
+    margin: auto;
+    align-items: center;
+    /* opacity: 0.8; */
+}
+
+.item{
+    list-style: none;
+    padding: 2px;
+}
+
+.item a:hover{
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(151, 40, 255);
+    /* font-size:18px ; */
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 5px 9px;
+    font-family: 'Yeon Sung', cursive; 
+    font-size: 1.2rem;
+}
+#navbar div img{
+    height: 60px;
+    margin: 2px;
+    width: 62px;
+}
+.home{
+    height:600px;
+    font-family: 'Yeon Sung', cursive;    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem ;
+}
+.home::before{
+    height: 705px;
+    width: 100%;
+    content: "";
+    top: 0px;
+    background:url('/img.jpg') no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.common{
+    margin: 2px;
+}
+.btn{
+    font-size: 16px;
+    font-family: 'Yeon Sung', cursive;
+    padding: 3px 5px;
+    /* font-weight: bold; */
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 23px 5px 0px 5px;
+    background-color:#cfcfcf;
+}
+.btn-sm{
+    font-size: 16px;
+    font-family: 'Yeon Sung', cursive;
+    padding: 3px 5px;
+    /* font-weight: bold; */
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    /* margin-top: 23px; */
+    background-color:#cfcfcf;
+    
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.searchbar{
+    align-items: center;
+    display: block;
+    width: 17pc;
+    margin: auto;
+}
+input{
+    font-size: 16px;
+    font-family: 'Yeon Sung', cursive;
+    padding: 3px 5px;
+    /* font-weight: bold; */
+    border: 2px solid black;
+    border-radius: 5px;
+    /* margin-top: 23px; */
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    /* width: 100pc; */
+    margin: auto;
+    text-align: center;
+}
